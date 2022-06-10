@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <section class="bg-warning p-5">
+    <form class="m-5 text-center">
+        <h2 class="display-6">BMI Calculator</h2>
+        <label for="fname">Age:</label><br><br>
+        <input type="number" id="age" name="fname" class="w-50"><br><br>
+        <label for="Gender" class="px-3">Gender :</label> <br>
+        <label for="Gender" class="px-5">Male :</label>
+        <input type="radio" name="Gender" value="male">
+        <label for="Gender" class="px-5">Female :</label>
+        <input type="radio" name="Gender" value="female"><br><br>
+        <label for="fname">Height (in cm):</label><br><br>
+        <input type="number" id="height" name="fname" class="w-50"><br><br>
+        <label for="lname">Weight (in ):</label><br><br>
+        <input type="number" id="weight" name="lname" class="w-50"><br><br>
+        <button type="button" id="btnDisplays" onclick="calculate()" class="bg-success text-light">Calculate</button>
+        <button type="button" id="btnDisplayss" class="bg-success text-light ">Reset</button>
+        <br>
+        <br>
+        <p id="Result"></p>
+        <p id="Results"></p>
+    </form>
+</section>
+    <script src="./code.js">
+    </script>
+</body>
+</html>
