@@ -9,8 +9,8 @@
 
 const btnDisplayss= document.getElementById('btnDisplayss');
 btnDisplayss.addEventListener('click', ()=>{
-    let Weight= document.getElementById('weight').value;
-    let Height= document.getElementById('height').value;
+    let weight= document.getElementById('weight').value;
+    let height= document.getElementById('height').value;
     let Result= 0;
     document.getElementById('Result').innerText= Result;
     console.log(Result);
